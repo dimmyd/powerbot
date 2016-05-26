@@ -22,10 +22,10 @@ public class ClaySoftener extends PollingScript<ClientContext> implements Messag
     //item ids
     public static final int CLAY = 434, SOFT_CLAY = 1761;
     //fountain object id
-    public static final int FOUNTAIN = 47150;
+    public static final int FOUNTAIN = 96499;
     //tiles to walk to
-    public static final Tile BANK_TILE = new Tile(3151, 3479, 0);
-    public static final Tile FOUNTAIN_TILE = new Tile(3164, 3489, 0);
+    public static final Tile BANK_TILE = new Tile(3189, 3435, 0);
+    public static final Tile FOUNTAIN_TILE = new Tile(3209, 3430, 0);
 
     private int claysSoftened = 0;
     private long last = 0;
